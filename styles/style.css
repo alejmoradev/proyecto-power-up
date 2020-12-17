@@ -1,0 +1,115 @@
+header {
+    display: grid;
+    background-color: #CAFE48;
+    background-image: linear-gradient(to left, red , yellow);
+    grid-template-columns: auto auto auto auto auto auto;
+    column-gap: normal;
+    padding: 10px;
+    
+}
+/*LOGO*/
+header #logoPagina  {
+    text-align: left;
+    color: #8F2D56;
+    font-size: 40px;
+    font-weight: bold;
+    }
+
+/*BARRA DE NAVEGACION*/
+header nav ul{
+    background-color: #ffc8dd;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+header nav ul li:hover{
+    transform: scale(2,1);
+
+}
+/*
+#logosRedes {
+    text-align: right;    
+    font-size: 19px;
+}*/
+
+/*BANNER*/
+#banner{
+    text-align: center;
+    color: #8F2D56;
+    font-size: 25px;
+    font-style: italic;
+    background-color: #7CB4B8;
+    letter-spacing: 1mm;
+    position: sticky;
+    animation-direction: normal;
+    animation-name: aparecer;
+    animation-duration: 3s;  
+}
+
+@keyframes aparecer {
+
+    from {left: 0%;}
+    to {margin-left: 100%;}
+ }
+ 
+/*INSERTAR VIDEO VIVO*/
+#videoIndex {
+padding: 30px;
+text-align: center;
+}
+
+main {
+    background-color: #57467B;
+    background-image: linear-gradient(to top, #57467b, gray);
+
+    text-align: center;
+
+}
+
+/*ARTICULOS*/
+main #tituloSection #articulosSection{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #7CB4B8;
+    font-size: larger;
+    font-family: Impact;
+    justify-content: space-evenly;
+    height: 100px;
+}
+main #tituloSection #articulosSection article:hover{
+    height: 200px;
+    transition: height 2s;
+}
+
+
+footer {
+    background-color: #524948;
+    text-align: right;
+    background-image: linear-gradient(to right, #524948, gold);
+
+
+}
+
+/*LOGO RADIO CITY*/
+footer #logoRadiocity{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+/*REDES SOCIALES*/
+footer ul{
+    text-align: right;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+}
+
+.listaProp {
+    color: #FFBC42;
+}
