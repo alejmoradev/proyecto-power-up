@@ -1,7 +1,6 @@
 {
   "name": "proyecto-alejandro-mora",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,5 +10,7 @@
   "devDependencies": {
     "node-sass": "^5.0.0",
     "nodemon": "^2.0.6"
-  }
+  },
+  "dependencies": {},
+  "description": "ninguna"
 }
